@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+body{
+    /* font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Decas', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container{
+    margin-top: 40px;
+    width: 325px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.sedans-container{
+    height: 440px;
+    width: 325px;
+    background-color: hsl(30, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.suvs-container{
+    height: 440px;
+    width: 325px;
+    background-color: hsl(185, 98%, 23%);
+}
+
+.luxury-container{
+    height: 440px;
+    width: 325px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+.icon{
+    padding: 50px 50px 25px 50px ;
+}
+
+.type{
+    padding-left: 50px;
+    padding-right: 50px;
+    color:white;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 37px;
+    padding-bottom: 18px;
+}
+
+.description{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: hsl(32, 100%, 80%);
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.description.suvs{
+    color: hsl(187, 38%, 57%);
+}
+
+.description.luxury{
+    color: hsl(184, 21%, 61%);
+}
+
+.btn-learn{
+    border-style: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.btn-learn:hover{
+    border: solid 1px white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn-learn.uno{
+    color: hsl(30, 77%, 52%);
+}
+
+.btn-learn.uno:hover{
+    color: white;
+}
+
+.btn-learn.dos{
+    color: hsl(185, 98%, 23%);
+}
+
+.btn-learn.dos:hover{
+    color: white;
+}
+
+.btn-learn.tres{
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-learn.tres:hover{
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0; 
+    font-size: 11px;
+    text-align: center;
+}
+
+.footer a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1440px){
+    .main-container{
+        margin: auto;
+        height: 100vh;
+        
+    }
+
+    .card-container{
+        display: flex;
+        width: 920px;
+        height: 500px;
+    }
+
+    .sedans-container{
+        height: 500px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .suvs-container{
+        height: 500px;
+    }
+
+    .luxury-container{
+        height: 500px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .type{
+        padding-bottom: 28px;
+    }
+
+    .description{
+        font-size: 16px;
+        padding-right: 40px;
+        padding-bottom: 85px;
+    }
+}
