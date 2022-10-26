@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 
+
 body{
     /* font-family: 'Big Shoulders Display', cursive; */
     font-family: 'Lexend Decas', cursive;
@@ -14,6 +15,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
 .card-container{
@@ -126,9 +129,7 @@ body{
 
 @media only screen and (min-width: 1440px){
     .main-container{
-        margin: auto;
-        height: 100vh;
-        
+        margin: auto; 
     }
 
     .card-container{
